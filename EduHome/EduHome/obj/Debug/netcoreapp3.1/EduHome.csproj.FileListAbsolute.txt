@@ -35,8 +35,6 @@ C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.genr
 C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\EduHome.csproj.CopyComplete
 C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
-C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Create.cshtml.g.cs
-C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Delete.cshtml.g.cs
 C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Index.cshtml.g.cs
 C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\murad\source\repos\EduHome\EduHome\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs

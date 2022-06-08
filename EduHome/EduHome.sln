@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduHome", "EduHome\EduHome.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{57757F02-B133-45EA-A89F-27A109A5E7C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{4468C303-2EE3-49D8-84F9-AEA96BF62DFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57757F02-B133-45EA-A89F-27A109A5E7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57757F02-B133-45EA-A89F-27A109A5E7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57757F02-B133-45EA-A89F-27A109A5E7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4468C303-2EE3-49D8-84F9-AEA96BF62DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4468C303-2EE3-49D8-84F9-AEA96BF62DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4468C303-2EE3-49D8-84F9-AEA96BF62DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4468C303-2EE3-49D8-84F9-AEA96BF62DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿@*@model List<Sliders>
+﻿@model List<Slider>
 
 <div class="container">
     <div class="row">
@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
-                        <a class="btn btn-primary mb-4" asp-area="admin" asp-controller="slider" asp-action="index">Go Back</a>
+                        <a class="btn btn-primary mb-4" asp-area="admin" asp-controller="dashboard" asp-action="index">Go Back</a>
                     </div>
                     <h4 class="card-title">Slider</h4>
                     <div class="table-responsive">
@@ -28,27 +28,25 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>
-                                        @Model.Title1
-                                    </td>
-                                    <td>
-                                        @Model.Title2
-                                    </td>
-                                    <td>
-                                        @Model.Desc
-                                    </td>
-                                    <td>
-                                        @Model.RedirectedUrl
-                                    </td>
-                                    <td>
-                                        @Model.RedirectedUrlText
-                                    </td>
-                                    <td>
-                                        <a asp-area="admin" asp-controller="slider" asp-action="update" asp-route-id="@Model.Id" class="btn btn-warning mb-3">Update</a>
-                                        <a asp-area="admin" asp-controller="slider" asp-action="delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
-                                    </td>
-                                </tr>
+                                @foreach (var slider in Model)
+                                {
+                                    <tr>
+                                        <td class="py-1">
+                                            <img src="~/assets/uploads/products/@slider.ImgUrl" class="img-fluid" alt="..." />
+                                        </td>
+                                        <td>
+                                            @slider.Title
+                                        </td>
+                                        <td>
+                                            @slider.Body
+                                        </td>
+                                        <td>
+                                            <a asp-area="admin" asp-controller="slider" asp-action="update" class="btn btn-warning mb-3">Update</a>
+                                            <a asp-area="admin" asp-controller="slider" asp-action="delete" class="btn btn-danger">Delete</a>
+                                            <a asp-area="admin" asp-controller="slider" asp-action="delete" class="btn btn-danger">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
                     </div>
@@ -56,4 +54,4 @@
             </div>
         </div>
     </div>
-</div>*@
+</div>
